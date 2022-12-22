@@ -39,6 +39,34 @@ body {
     .container {
         margin: 50px 0px 0px 50px;
     }
+    
+.tags {
+    display: flex;
+}
+
+.tag1,
+.tag2,
+.tag3 {
+    margin-right: 70px;
+}
+
+h2 {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 0px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700
+}
+
+.para1,
+.para2,
+.para3 {
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 400
+}
 }
 
 @media only screen and (max-width: 375px) {
@@ -118,33 +146,6 @@ h1 {
     font-weight: 400
 }
 
-.tags {
-    display: flex;
-}
-
-.tag1,
-.tag2,
-.tag3 {
-    margin-right: 70px;
-}
-
-h2 {
-    color: hsl(0, 0%, 100%);
-    margin-bottom: 0px;
-    font-family: sans-serif;
-    font-size: 20px;
-    font-weight: 700
-}
-
-.para1,
-.para2,
-.para3 {
-    color: hsla(0, 0%, 100%, 0.75);
-    margin-top: 5px;
-    font-size: 15px;
-    font-family: sans-serif;
-    font-weight: 400
-}
 
 .attribution {
     color: hsla(0, 0%, 100%, 0.75);
